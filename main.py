@@ -2,11 +2,11 @@ import streamlit as st
 from scrape import (scrape_website, body_content, cleared_content, split_content)
 from parse import parse_with_ollama
 
-st.title("Web Scraping AI")
+st.title("WebBot")
 
 url = st.text_input("Enter the URL")
 
-if st.button("Scrap Site"):
+if st.button("Scrape Site"):
     st.write("Scraping the site...")
     
     result = scrape_website(url)
