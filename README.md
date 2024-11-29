@@ -1,4 +1,4 @@
-# Web Scraping AI
+# WebBot
 
 This project is a web scraping tool that uses Selenium and BeautifulSoup to extract content from websites. The extracted content is then processed and summarized using a language model from the LangChain library.
 
